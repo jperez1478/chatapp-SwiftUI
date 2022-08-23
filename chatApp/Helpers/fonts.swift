@@ -37,5 +37,10 @@ extension Font{
         return Font.custom("LexendDeca-SemiBold", size: 33)
     }
     
+    public static var chatHeading: Font {
+        return Font.custom("LexendDeca-SemiBold", size: 16)
+    
+    }
+    
    
 }

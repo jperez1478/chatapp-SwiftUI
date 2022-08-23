@@ -11,17 +11,11 @@ struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
             .padding()
+            .font(Font.chatHeading)
             
     }
     
-    //quick check to font
-    init(){
-        for family in UIFont.familyNames {
-            for fontname in UIFont.fontNames(forFamilyName: family){
-                .font(Font.title)
-            }
-        }
-    }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
